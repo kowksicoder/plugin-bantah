@@ -1,6 +1,6 @@
 # NPM Publish Checklist
 
-This is the last-mile checklist for publishing `@elizaos/plugin-bantah`.
+This is the last-mile checklist for publishing `@youbuidl/plugin-bantah`.
 
 ## Pre-publish checks
 
@@ -33,5 +33,5 @@ npm publish --access public
 4. Install-test in a clean Eliza project:
 
 ```bash
-npm install @elizaos/plugin-bantah
+npm install @youbuidl/plugin-bantah
 ```

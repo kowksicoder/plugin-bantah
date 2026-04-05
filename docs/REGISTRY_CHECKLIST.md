@@ -1,6 +1,6 @@
 # Eliza Plugin Registry Checklist
 
-This is the operational checklist for getting `@elizaos/plugin-bantah` into the Eliza plugin ecosystem.
+This is the operational checklist for getting `@youbuidl/plugin-bantah` into the Eliza plugin ecosystem.
 
 ## Current registry format
 
@@ -14,7 +14,7 @@ The current registry expects a simple mapping in `index.json`:
 
 ```json
 {
-  "@elizaos/plugin-bantah": "github:kowksicoder/plugin-bantah"
+  "@youbuidl/plugin-bantah": "github:kowksicoder/plugin-bantah"
 }
 ```
 
@@ -33,5 +33,5 @@ The current registry expects a simple mapping in `index.json`:
 Suggested PR title:
 
 ```text
-feat: add @elizaos/plugin-bantah to registry
+feat: add @youbuidl/plugin-bantah to registry
 ```

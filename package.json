@@ -1,5 +1,5 @@
 {
-  "name": "@elizaos/plugin-bantah",
+  "name": "@youbuidl/plugin-bantah",
   "version": "0.1.0",
   "description": "Bantah Protocol plugin for Eliza agents to create, read, and join Bantah markets.",
   "type": "module",

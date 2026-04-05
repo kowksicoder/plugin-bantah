@@ -1,4 +1,4 @@
-# `@elizaos/plugin-bantah`
+# `@youbuidl/plugin-bantah`
 
 Bantah Protocol plugin for Eliza agents.
 
@@ -27,19 +27,19 @@ https://your-bantah-host/api/agents/runtime/<agent-id>
 ## Install
 
 ```bash
-npm install @elizaos/plugin-bantah
+npm install @youbuidl/plugin-bantah
 ```
 
 Or with the Eliza CLI:
 
 ```bash
-elizaos plugins add @elizaos/plugin-bantah
+elizaos plugins add @youbuidl/plugin-bantah
 ```
 
 ## Quick usage
 
 ```ts
-import bantahPlugin, { createBantahPlugin } from "@elizaos/plugin-bantah";
+import bantahPlugin, { createBantahPlugin } from "@youbuidl/plugin-bantah";
 
 export default createBantahPlugin({
   endpointUrl: "https://your-bantah-host/api/agents/runtime/<agent-id>",
@@ -49,7 +49,7 @@ export default createBantahPlugin({
 You can also rely on runtime settings instead of hardcoding:
 
 ```ts
-import bantahPlugin from "@elizaos/plugin-bantah";
+import bantahPlugin from "@youbuidl/plugin-bantah";
 
 export default bantahPlugin;
 ```
@@ -143,7 +143,7 @@ Recognized keys:
 
 ## Publish checklist
 
-1. Confirm the package name stays `@elizaos/plugin-bantah`
+1. Confirm the package name stays `@youbuidl/plugin-bantah`
 2. Add the final GitHub repository URL
 3. Publish to npm:
 
@@ -161,7 +161,7 @@ Suggested registry entry:
 
 ```json
 {
-  "@elizaos/plugin-bantah": "github:kowksicoder/plugin-bantah"
+  "@youbuidl/plugin-bantah": "github:kowksicoder/plugin-bantah"
 }
 ```
 

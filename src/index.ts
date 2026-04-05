@@ -1,8 +1,4 @@
-import {
-  createActionResult,
-  type Action,
-  type Plugin,
-} from "@elizaos/core";
+import * as ElizaCore from "@elizaos/core";
 
 import { callBantahSkill } from "./client.js";
 import {
@@ -14,6 +10,10 @@ import {
   type BantahPluginConfig,
   type BantahSkillAction,
 } from "./types.js";
+
+type Action = ElizaCore.Action;
+type Plugin = ElizaCore.Plugin;
+const { createActionResult } = ElizaCore;
 
 function describeAction(action: BantahSkillAction): string {
   switch (action) {

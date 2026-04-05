@@ -1,5 +1,6 @@
-import type { IAgentRuntime } from "@elizaos/core";
+import type * as ElizaCore from "@elizaos/core";
 import { type BantahPluginConfig, type BantahSkillAction } from "./types.js";
+type IAgentRuntime = ElizaCore.IAgentRuntime;
 type ResolvedBantahPluginConfig = {
     endpointUrl?: string;
     apiKey?: string;

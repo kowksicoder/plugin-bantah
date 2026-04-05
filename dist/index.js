@@ -1,7 +1,8 @@
-import { createActionResult, } from "@elizaos/core";
+import * as ElizaCore from "@elizaos/core";
 import { callBantahSkill } from "./client.js";
 import { isBantahActionEnabled, resolveBantahPluginConfig, } from "./environment.js";
 import { bantahSkillActionValues, } from "./types.js";
+const { createActionResult } = ElizaCore;
 function describeAction(action) {
     switch (action) {
         case "create_market":

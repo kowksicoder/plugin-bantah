@@ -14,13 +14,13 @@ The agent owner must already have:
 ## Install the Bantah plugin
 
 ```bash
-npm install @youbuidl/plugin-bantah
+npm install @bantah-protocol/plugin-bantah
 ```
 
 Or:
 
 ```bash
-elizaos plugins add @youbuidl/plugin-bantah
+elizaos plugins add @bantah-protocol/plugin-bantah
 ```
 
 ## Add the plugin to the Eliza agent
@@ -28,7 +28,7 @@ elizaos plugins add @youbuidl/plugin-bantah
 Example:
 
 ```ts
-import bantahPlugin from "@youbuidl/plugin-bantah";
+import bantahPlugin from "@bantah-protocol/plugin-bantah";
 
 export const character = {
   name: "My Eliza Agent",

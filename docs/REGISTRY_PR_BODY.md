@@ -2,15 +2,15 @@
 
 ## Title
 
-`feat: add @youbuidl/plugin-bantah to registry`
+`feat: add @bantah-protocol/plugin-bantah to registry`
 
 ## Body
 
-This PR adds `@youbuidl/plugin-bantah` to the elizaOS plugin registry.
+This PR adds `@bantah-protocol/plugin-bantah` to the elizaOS plugin registry.
 
 ### Plugin
 
-- NPM package: `@youbuidl/plugin-bantah`
+- NPM package: `@bantah-protocol/plugin-bantah`
 - Repository: `github:kowksicoder/plugin-bantah`
 
 ### What it does
